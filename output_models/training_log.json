@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-05-31T15:05:29.650561",
+  "models": [
+    {
+      "name": "SVC",
+      "cv_f1_mean": 0.686214084704647,
+      "cv_f1_std": 0.11292046837905703,
+      "test_f1": 0.6925252525252525,
+      "test_acc": 0.82,
+      "best_params": {
+        "model__C": 7.742636826811277,
+        "model__gamma": "scale",
+        "model__kernel": "rbf"
+      }
+    },
+    {
+      "name": "KNeighbors",
+      "cv_f1_mean": 0.6068421530774473,
+      "cv_f1_std": 0.0798860706109689,
+      "test_f1": 0.44614657210401887,
+      "test_acc": 0.74,
+      "best_params": {
+        "model__metric": "cosine",
+        "model__n_neighbors": 7,
+        "model__weights": "distance"
+      }
+    },
+    {
+      "name": "RandomForest",
+      "cv_f1_mean": 0.5466540566492434,
+      "cv_f1_std": 0.11844568255536742,
+      "test_f1": 0.33561517113783534,
+      "test_acc": 0.78,
+      "best_params": {
+        "model__max_depth": null,
+        "model__max_features": null,
+        "model__min_samples_leaf": 1,
+        "model__n_estimators": 200
+      }
+    },
+    {
+      "name": "LogisticRegression",
+      "cv_f1_mean": 0.6282834907028455,
+      "cv_f1_std": 0.09862291814858526,
+      "test_f1": 0.3828203859475507,
+      "test_acc": 0.7,
+      "best_params": {
+        "model__C": 1.0,
+        "model__penalty": "l2",
+        "model__solver": "liblinear"
+      }
+    },
+    {
+      "name": "LogisticRegression_L1",
+      "cv_f1_mean": 0.5956660766134452,
+      "cv_f1_std": 0.15548019439368735,
+      "test_f1": 0.37726996966632964,
+      "test_acc": 0.68,
+      "best_params": {
+        "model__C": 1.0
+      }
+    },
+    {
+      "name": "KMeans",
+      "cv_f1_mean": null,
+      "cv_f1_std": null,
+      "test_f1": null,
+      "test_acc": null,
+      "best_params": {},
+      "silhouette": 0.10010673682455921
+    },
+    {
+      "name": "AgglomerativeClustering",
+      "cv_f1_mean": null,
+      "cv_f1_std": null,
+      "test_f1": null,
+      "test_acc": null,
+      "best_params": {},
+      "silhouette": 0.18177784380004716
+    }
+  ],
+  "best_model": {
+    "name": "SVC",
+    "test_f1": 0.6925252525252525,
+    "test_acc": 0.82
+  }
+}

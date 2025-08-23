@@ -1,0 +1,16 @@
+feature
+ratio_area
+color_min_R
+color_std_R
+color_min_G
+color_mean_G
+color_mean_B
+color_median_B
+inscribed_circle_radius_norm
+hu_1
+hu_4
+glcm_homogeneity
+glcm_energy
+glcm_correlation
+hist_mean
+hist_entropy

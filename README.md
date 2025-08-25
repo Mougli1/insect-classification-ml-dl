@@ -11,7 +11,7 @@ Classification of insect species from RGB images using:
 ## Data Availability
 **Datasets (images) are not included** in this repository due to size constraints. All key **results and figures are available in the report**.
 
-## Authors (equal contribution)
+## Authors 
 - **Mouloud Merbouche**
 - **Célia Tso**
 
